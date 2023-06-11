@@ -1,7 +1,11 @@
 import Ondeck from './Ondeck';
 
-function App(){
+const App=()=>{
+  return(
+    <div>
+      
+      <Ondeck/>
+    </div>
+  )}
 
-}
-
-export default 'App';
+export default App;
