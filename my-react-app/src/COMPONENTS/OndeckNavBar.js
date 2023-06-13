@@ -1,18 +1,20 @@
 import Logo from '../img/Logo.png';
 import './OndeckNavBar.css';
+import OndeckDropDown from './OndeckDropDown';
+
 
 const OndeckNavBar=()=> {
 
     return (
         <div className='NavBar'>
             <img src={Logo} alt='OndeckLogo'/>
-            <div>Products</div>
-            <div>Challenges</div>
-            <div>Resources</div>
-            <div>Other links</div>
-            <div>Sign in</div>
-            <div>Try for free</div>
-        </div>
+            <OndeckDropDown/>
+            <div className='challenges'>Challenges</div>
+            <div className='resources'>Resources</div>
+            <div className='otherlinks'>Other links</div>
+            <div className='signIn'>Sign in</div>
+            <div className='TryForFree'>Try for free</div>
+            </div>
     )
 }
 

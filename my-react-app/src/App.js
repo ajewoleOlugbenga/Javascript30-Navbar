@@ -1,8 +1,8 @@
 import Ondeck from './Ondeck';
-
+import './App.css';
 const App=()=>{
   return(
-    <div>
+    <div className='WholeApp'>
       <Ondeck/>
     </div>
   )}

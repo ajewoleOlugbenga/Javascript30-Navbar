@@ -1,3 +1,23 @@
 .NavBar {
     display: flex;
+    margin: 3%;
+}
+.challenges{
+    margin-left: 5%;
+}
+.resources{
+    margin-left: 5%;
+}
+.otherlinks{
+    margin-left: 5%;
+}
+.signIn{
+    margin-left: 17%;
+}
+.TryForFree{
+    margin-left: 5%;
+    background-color: #133416;
+    color: white;
+   padding: 15px;
+   border-radius: 5%;
 }

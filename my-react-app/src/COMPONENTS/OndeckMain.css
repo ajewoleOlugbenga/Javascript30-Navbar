@@ -1,3 +1,16 @@
 .MainDisplay{
     display: flex;
+    justify-content:space-between;
+}
+.MainPics{
+    width: 20%;
+    height: auto;
+    margin-right: 7%;
+}
+.conference{
+    color: #f5c64e;
+}
+h2{
+    font-size:270%;
+    text-align: start;
 }
